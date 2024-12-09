@@ -11,7 +11,7 @@
   - [Some timers](#some-timers)
   - [Delete timers](#delete-timers)
   - [Restart timers](#restart-timers)
-  - [Nite](#note)
+  - [Note](#note)
 - [Author](#author)
 
 
