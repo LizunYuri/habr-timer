@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Electrolize&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Electrolize", sans-serif;
+    color: white;
+}
+button,
+input{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+input{
+    overflow: hidden;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer{
+    min-width: 50%;
+    background: gray;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 12px;
+    box-shadow: 5px 6px 11px -3px #000000;
+}
+.timer > h1{
+    margin-bottom: 24px;
+    margin-left: 12px;
+    font-size: 45px;
+    color: aliceblue;
+}
+.timer-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.timer-add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.timer-icon{
+    font-size: 36px;
+    transition: all .3s ease;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.timer-icon-hover:hover{
+    transform: rotate(180deg);
+}
+.timer-input{
+    font-size: 22px;
+    margin: 8px 6px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 4px  5px;
+}
+
+.playing{
+    font-size: 36px;
+    font-weight: 600;
+}
